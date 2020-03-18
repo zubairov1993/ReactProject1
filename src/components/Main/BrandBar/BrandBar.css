@@ -1,0 +1,117 @@
+.brandbar{
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+    border-bottom: 3px solid rgba(0,0,0,0.1);
+    box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.37);
+}
+
+.brandbar .wrapper{
+    justify-content: space-around;
+}
+
+.social{
+    padding-bottom: 20px;
+}
+
+.social h5{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #333333;
+    padding-top: 20px;
+    }
+    
+.social p{
+    width: 370px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #86878b;
+    padding-top: 0px;
+    padding-right: 0;
+}
+    
+.icon a{
+    color: #cccccc;
+    padding-left: 30px;
+}
+    
+.icon{
+    height: 46px;
+    padding-top: 29px;
+    font-family: FontAwesome;
+    font-size: 48px;
+    font-weight: 400;
+    padding-left: 0;
+}
+
+@media screen and (max-width: 1024px){
+    .brandbar .wrapper{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .social{
+        text-align: center;
+    }
+
+    .icon{
+        padding-top: 0;
+        padding-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 640px){
+    .social{
+        padding-bottom: 0;
+    }
+
+    .icon{
+        width: 60%;
+        display: flex;
+        justify-content: space-around;
+        padding-top: 20px;
+        padding-bottom: 0;
+        font-size: 34px;
+    }
+
+    .icon a{
+        padding-left: 0;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .features{
+        padding-bottom: 50px !important;
+    }
+
+    .brandbar .wrapper{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .icon{
+        width: 80%;
+        font-size: 30px;
+    }
+
+    .social{
+        width: 90%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 0;
+        margin: 0 auto;
+    }
+
+    .social p{
+        width: 90%;
+    }
+
+    .download1{
+        margin-top: 30px;
+    }
+}

@@ -1,0 +1,127 @@
+.wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.standard{
+    width: 100%;
+    height: auto;
+    background-color: #f4f6f4;
+}
+
+.insertBlock2{
+	width: 50%;
+}
+    
+.insert2{
+    width: 453px;
+    height: 304px;
+    background-color: #9a9a9a;
+    box-shadow: 0px 13px 46px -23px #000000;
+    margin-top: 90px;
+    margin-left: auto;
+    margin-right: auto;
+}
+    
+.insert3{
+    opacity: 0.21;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 33.1px;
+    font-weight: 400;
+    color: #ffffff;
+    width: 190px;
+    height: 72px;
+    margin: auto;
+    padding-top: 110px;
+    line-height: 40px;
+}
+    
+.standardp{
+    width: 50%;
+    padding-left: 153px;
+    padding-top: 97px;
+}
+    
+.standardh5{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    line-height: 43px;
+    font-weight: 700;
+    color: #212121;
+}
+    
+.p4{
+    float: left;
+    width: 474px;
+    height: 132px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #86878b;
+    padding-top: 30px;
+    padding-bottom: 207px;
+}
+
+@media screen and (max-width: 1239px){
+    .standardp{
+        padding-left: 7%;
+    }
+}
+
+@media screen and (max-width: 1080px){
+    .insert2{
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .standardp{
+        padding-left: 4%;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .standard > .wrapper{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .insert2{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+    }
+
+    .insertBlock2{
+        width: 100%;
+    }
+
+    .standardp{
+        width: 90%;
+        padding-top: 60px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .p4{
+        padding-bottom: 50px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .insert2{
+        width: 100%;
+    }
+
+    .insert3{
+        text-align: center;
+    }
+
+    .p4{
+        padding-bottom: 80px;
+    }
+}

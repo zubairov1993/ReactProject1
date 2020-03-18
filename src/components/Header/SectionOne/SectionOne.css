@@ -1,0 +1,216 @@
+.sectionOne .wrapper{
+    flex-direction: column;
+}
+
+.sectionOne h3{
+    opacity: 0.21;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 33.1px;
+    font-weight: 400;
+    color: #ffffff;
+    padding-top: 60px;
+    text-align: center;
+}
+
+.sectionOne__content{
+    display: flex;
+    padding-bottom: 100px;
+}
+
+.sectionOne__texts{
+    display: flex;
+    flex-direction: column;
+    font-family:'Raleway', sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding-left: 150px;
+    padding-top: 33px;
+    width: 60%;
+}
+
+.sectionOne__text_form{
+    width: 40%;
+}
+
+.sectionOne__text_inputs{
+    width: 360px;
+    height: 360px;
+    background-color: #fff;
+    border-radius: 4px;
+    margin-top: 46px;
+    margin-right: 30px;
+}
+
+.sectionOne__text_inputs-head{
+    height: 54px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #333333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    background-color: #f4f6f4;
+}
+    
+.colorfree{
+    color: #ff8b38;
+}
+
+.sectionOne__text_input-name{
+    border:none;
+    margin-left: 38px;
+    box-shadow: 0px 1px 0px 0px rgba(0,0,0,0.15);
+    width: 285px;
+    height: 32px;
+    margin-top: 29px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #bdbdbd;
+}
+    
+.sectionOne__text_input-email{
+    border:none;
+    margin-left: 38px;
+    box-shadow: 0px 1px 0px 0px rgba(0,0,0,0.15);
+    width: 285px;
+    height: 32px;
+    margin-top: 35px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #bdbdbd;	
+}
+    
+.sectionOne__text_input-password{
+    border:none;
+    margin-left: 38px;
+    box-shadow: 0px 1px 0px 0px rgba(0,0,0,0.15);
+    width: 285px;
+    height: 32px;
+    margin-top: 46px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #bdbdbd;
+}
+    
+.sectionOne__text_input-submit{
+    background-color: #ff8b38;
+    margin-top: 47px;
+    width: 360px;
+    height: 54px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: #ffffff;
+    border-radius: 4px;
+}
+
+.sectionOne__text{
+    opacity: 0.6;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    line-height: 23px;
+    font-weight: 300;
+    color: #ffffff;
+    height: 61px;
+    width: 90%;
+    padding-top: 30px;
+}
+
+.sectionOne__text_btn{
+    width: 135px;
+    height: 42px;
+    border:2px solid #fff;
+    background-color: #9a9a9a;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: #ffffff;
+    margin-top: 44px;
+}
+
+@media screen and (max-width: 1080px){
+    .sectionOne .wrapper{
+        flex-direction: column;
+    }
+
+    .sectionOne__content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 100px;
+        padding-top: 30px;
+    }
+    .sectionOne__texts{
+        width: 90%;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .sectionOne__text_form{
+        width: 100%;
+        margin-top: 140px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .sectionOne__text_inputs{
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 640px){
+    .sectionOne__texts > p{
+        font-size: 30px;
+    }
+
+    .sectionOne__text p{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .sectionOne h3{
+        font-size: 28px;
+    }
+    .sectionOne__texts > p{
+        font-size: 25px;
+    }
+
+    .sectionOne__text p{
+        font-size: 12px;
+    }
+
+    @media screen and (max-width: 375px){
+        .sectionOne__content{
+            padding-top: 10px;
+            padding-bottom: 50px;
+        }
+
+        .sectionOne__text_form{
+            margin-top: 170px;
+        }
+
+        .sectionOne__text_inputs{
+            width: 300px;
+        }
+
+        .inp{
+            margin-left: 20px;
+            width: 260px;
+        }
+
+        .sectionOne__text_input-submit{
+            width: 300px;
+        }
+    }
+}

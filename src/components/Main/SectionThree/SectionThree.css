@@ -1,0 +1,204 @@
+.blockinsert{
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+
+.insertBlock{
+    width: 60%;
+}
+    
+.insert{
+    display: flex;
+    width: 453px;
+    height: 303px;
+    background-color: #9a9a9a;
+    box-shadow: 0px 13px 46px -23px #000000;
+    margin-left: 10%;
+    margin-top: 127px;
+}
+    
+.insert1{
+    opacity: 0.21;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 33.1px;
+    font-weight: 400;
+    color: #ffffff;
+    width: 190px;
+    height: 72px;
+    padding-left: 132px;
+    padding-top: 110px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.section{
+    padding-top: 94px;
+    width: 40%;
+}
+    
+.h5{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    line-height: 43px;
+    font-weight: 700;
+    color: #212121;
+    width: 149px;
+    height: 17px;
+}
+    
+.section p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #86878b;
+}
+    
+.log{
+    width: 40px;
+    height: 40px;	
+}
+    
+.top{
+    display: flex;
+    padding-top: 44px;
+}
+    
+.p1{
+    width: 415px;
+    height: 55px;
+    padding-top: 30px;
+}
+    
+h6{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 600;
+    color: #212121
+}
+    
+.p2{
+    margin-left: 24px;
+}
+    
+.p2 p{
+    width: 362px;
+    height: 32px;
+    padding-top: 8px;
+}
+    
+.bot{
+    display: flex;
+    padding-top: 44px;
+}
+    
+.p3{
+    margin-left: 24px;
+}
+    
+.p3 p{
+    width: 365px;
+    height: 55px;
+    padding-top: 8px;
+}
+
+
+@media screen and (max-width: 1080px){
+    .section{
+        padding-right: 5%;
+    }
+
+}
+
+@media screen and (max-width: 1024px){
+    .blockinsert > .wrapper{
+        flex-direction: column;
+    }
+
+    .insertBlock{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .insert{
+        margin-left: 0;
+    }
+
+    .section{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding-right: 0;
+    }
+
+    .top{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bot{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .p2, .p3{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+        padding-top: 20px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .blockinsert{
+        padding-bottom: 50px;
+    }
+
+    .insert{
+        margin-top: 50px;
+    }
+
+    .section{
+        padding-top: 50px;
+    }
+}
+
+@media screen and (max-width: 640px){
+    .insert{
+        width: 400px;
+        height: 270px;
+    }
+
+    .insert1{
+        padding-top: 100px;
+        padding-left: 110px;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .insert{
+        width: 100%;
+    }
+
+    .insert1{
+        padding: 0;
+        margin: auto;
+    }
+
+    .p1{
+        width: 90%;
+    }
+
+    .p2 p, .p3 p{
+        width: 90%;
+    }
+
+}

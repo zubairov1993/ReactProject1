@@ -1,0 +1,166 @@
+.awesome{
+    width: 100%;
+    height: auto;
+    padding-bottom: 100px;
+    background-color: #ffffff;
+}
+
+.text{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+    
+h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    line-height: 43px;
+    font-weight: 400;
+    color: #212121;
+    padding-top: 108px;
+}
+    
+.zag{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #86878b;
+    padding-top: 27px;
+}
+    
+.glo{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 80px;
+}
+
+.design{
+    width: 350px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+    
+.design h5{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #333333;
+    padding-top: 24px;
+}
+    
+.design p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #86878b;
+    width: 352px;
+    height: 52px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.crafted{
+    width: 350px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+    
+.crafted h5{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #333333;
+    padding-top: 24px;
+}
+    
+.crafted p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #86878b;
+    width: 352px;
+    height: 52px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.customize{
+    width: 350px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.customize h5{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #333333;
+    padding-top: 24px;
+}
+    
+.customize p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #86878b;
+    width: 352px;
+    height: 52px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+@media screen and (max-width: 768px){
+    .awesome{
+        padding-bottom: 50px;
+    }
+
+    .text h2{
+        padding-top: 50px;
+    }
+
+    .glo{
+        padding-top: 50px;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .text h2{
+        width: 90%;
+        text-align: center;
+    }
+
+    .text p{
+        width: 90%;
+        text-align: center;
+    }
+
+    .design{
+        width: 90%;
+        margin: 25px;
+    }
+
+    .crafted{
+        width: 90%;
+        margin: 25px;
+    }
+
+    .customize{
+        width: 90%;
+        margin: 25px;
+    }
+}

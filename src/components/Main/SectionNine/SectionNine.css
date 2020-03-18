@@ -1,0 +1,162 @@
+.contact_us{
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+    padding-bottom: 100px;
+}
+
+.contact_us .wrapper{
+    display: block;
+}
+    
+.contact_us h1{
+    text-align: center;
+    padding-top: 105px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    line-height: 43px;
+    font-weight: 400;
+    color: #212121;
+}
+    
+.contact_us p{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #86878b;
+    padding-top: 30px;
+}
+
+.panel{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+
+.panel_g input{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #bdbdbd;
+    border: none;
+    border-bottom: 1px solid #bdbdbd;
+    width: 527px;
+    height: 32px;
+}
+    
+.name1{
+    padding-top: 80px;
+}
+    
+.email1, .subject1{
+    padding-top: 29px;
+}
+    
+.panel_h{
+    display: flex;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #bdbdbd;
+}
+    
+.message{
+    width: 527px;
+    height: 32px;
+    border: none;
+    border-bottom: 1px solid #bdbdbd;
+    margin-top: 97px;
+}
+    
+.message1{
+    padding-top: 91px;
+}
+
+.btn__download{
+    display: flex;
+    justify-content: center;
+}
+    
+.button{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: #ff8b37;
+    width: 148px;
+    height: 46px;
+    border-radius: 4px;
+    margin-top: 42px;
+    border:none;
+}
+
+@media screen and (max-width: 1239px){
+    .panel_g input{
+        width: 450px;
+    }
+
+    .message{
+        width: 450px;
+    }
+}
+
+@media screen and (max-width: 1080px){
+    .panel{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 640px){
+    .contact_us{
+        padding-bottom: 50px;
+    }
+
+    .contact_us p{
+        width: 90%;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .panel_g{
+        width: 90%;
+    }
+
+    .panel_g input{
+        width: 100%;
+    }
+
+    .panel_h{
+        width: 90%;
+    }
+
+    .panep{
+        width: 100%;
+    }
+
+    .message{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .panel_g{
+        width: 100%;
+    }
+
+    .panel_h{
+        width: 100%;
+    }
+
+    .message1{
+        padding-top: 30px;
+    }
+
+    .message{
+        margin-top: 30px;
+    }
+}
