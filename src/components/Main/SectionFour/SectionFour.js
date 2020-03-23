@@ -6,9 +6,9 @@ export default function SectionFour(){
     return(
         <div className="standard">
             <div className="wrapper">
-                <div className="standar__content">
-                    <h5 className="standar__content-h5">Standard Picture Section</h5>
-                    <p className="standar__text">
+                <div className="standard__content">
+                    <h5 className="standard__content-h5">Standard Picture Section</h5>
+                    <p className="standard__text">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean 
                         euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan 
                         et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis 
