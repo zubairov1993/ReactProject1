@@ -1,21 +1,21 @@
-.contact_us{
+.contact{
     width: 100%;
     height: auto;
     background-color: #ffffff;
     padding-bottom: 100px;
 }
 
-.contact_us .wrapper{
+.contact .wrapper{
     display: block;
 }
 
-.panel{
+.contact__forms{
     display: flex;
     justify-content: space-between;
     padding: 0 50px;
 }
 
-.panel_g input{
+.contact__form_1 input{
     display: flex;
     flex-direction: column;
     font-family: 'Open Sans', sans-serif;
@@ -28,15 +28,15 @@
     height: 32px;
 }
     
-.name1{
+.contact__form_1_name{
     padding-top: 80px;
 }
     
-.email1, .subject1{
+.contact__form_1_email, .contact__form_1_subject{
     padding-top: 29px;
 }
     
-.panel_h{
+.contact__form_2{
     display: flex;
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
@@ -44,7 +44,7 @@
     color: #bdbdbd;
 }
     
-.message{
+.contact__form_2_blok-message{
     width: 527px;
     height: 32px;
     border: none;
@@ -52,16 +52,16 @@
     margin-top: 97px;
 }
     
-.message1{
+.contact__form_2_blok-title{
     padding-top: 91px;
 }
 
-.btn__download{
+.contact__buttons{
     display: flex;
     justify-content: center;
 }
     
-.button{
+.contact__btn{
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
     font-weight: 600;
@@ -75,62 +75,62 @@
 }
 
 @media screen and (max-width: 1239px){
-    .panel_g input{
+    .contact__form_1 input{
         width: 450px;
     }
 
-    .message{
+    .contact__form_2_blok-message{
         width: 450px;
     }
 }
 
 @media screen and (max-width: 1080px){
-    .panel{
+    .contact__forms{
         flex-direction: column;
         align-items: center;
     }
 }
 
 @media screen and (max-width: 640px){
-    .contact_us{
+    .contact{
         padding-bottom: 50px;
     }
 
-    .panel_g{
+    .contact__form_1{
         width: 90%;
     }
 
-    .panel_g input{
+    .contact__form_1 input{
         width: 100%;
     }
 
-    .panel_h{
+    .contact__form_2{
         width: 90%;
     }
 
-    .panep{
+    .contact__form_2_blok{
         width: 100%;
     }
 
-    .message{
+    .contact__form_2_blok-message{
         width: 100%;
     }
 }
 
 @media screen and (max-width: 480px){
-    .panel_g{
+    .contact__form_1{
         width: 100%;
     }
 
-    .panel_h{
+    .contact__form_2{
         width: 100%;
     }
 
-    .message1{
+    .contact__form_2_blok-title{
         padding-top: 30px;
     }
 
-    .message{
+    .contact__form_2_blok-message{
         margin-top: 30px;
     }
 }

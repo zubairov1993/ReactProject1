@@ -1,18 +1,9 @@
-.pricing__block_basic,
-.pricing__block_professional,
-.pricing__block_enterprise{
+.pricing__block{
     display: flex;
     flex-direction: column;
 }
 
-.pricing__block_basic,
-.pricing__block_enterprise{
-    padding-top: 115px;
-}
-
-.pricing__block_basic_header,
-.pricing__block_professional_header,
-.pricing__block_enterprise_header{
+.pricing__block_header{
     width: 343px;
     height: 59px;
     background-color: #343334;
@@ -21,9 +12,7 @@
     border-bottom: 1px solid #fff;
 }
 
-.pricing__block_basic_header h5,
-.pricing__block_professional_header h5,
-.pricing__block_enterprise_header h5{
+.pricing__block_header h5{
     font-family: 'Open Sans', sans-serif;
     font-size: 20px;
     line-height: 24px;
@@ -33,33 +22,26 @@
     padding-top: 18px;
 }
 
-.pricing__block_basic_price,
-.pricing__block_professional_price,
-.pricing__block_enterprise_price{
+.pricing__block_price{
     text-align: center;
     width: 343px;
-    height: 100px;
+    height: auto;
+    margin-bottom: -1px;
     background-color: #343334;
 }
 
-.pricing__block_basic_price img,
-.pricing__block_professional_price img,
-.pricing__block_enterprise_price img{
+.pricing__block_price img{
     padding-top: 30px;
 }
 
-.pricing__block_basic_text,
-.pricing__block_professional_text,
-.pricing__block_enterprise_text{
+.pricing__block_text{
     padding-top: 20px;
     width: 343px;
     height: 51px;
     background-color: #343334;
 }
 
-.pricing__block_basic_text h6,
-.pricing__block_professional_text h6,
-.pricing__block_enterprise_text h6{
+.pricing__block_text h6{
     opacity: 0.5;
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
@@ -71,9 +53,7 @@
     text-align: center;
 }
 
-.pricing__block_basic_list > li,
-.pricing__block_professional_list > li,
-.pricing__block_enterprise_list > li{
+.pricing__block_list > li{
     list-style: none;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
@@ -90,95 +70,69 @@
 }
 
 @media screen and (max-width: 1239px){
-    .pricing__block_basic,
-    .pricing__block_professional,
-    .pricing__block_enterprise{
+    .pricing__block{
         align-items: center;
         padding-top: 50px;
     }
 
-    .pricing__block_basic_header,
-    .pricing__block_professional_header,
-    .pricing__block_enterprise_header{
+    .pricing__block_header{
         width: 50%;
         text-align: center;
     }
 
-    .pricing__block_basic_price,
-    .pricing__block_professional_price,
-    .pricing__block_enterprise_price{
+    .pricing__block_price{
         width: 50%;
         text-align: center;
     }
 
-    .pricing__block_basic_text,
-    .pricing__block_professional_text,
-    .pricing__block_enterprise_text{
+    .pricing__block_text{
         width: 50%;
         text-align: center;
     }
 
-    .pricing__block_basic_list,
-    .pricing__block_professional_list,
-    .pricing__block_enterprise_list{
+    .pricing__block_list{
         width: 50%;
     }
 }
 
 @media screen and (max-width: 768px){
-    .pricing__block_basic_header,
-    .pricing__block_professional_header,
-    .pricing__block_enterprise_header{
+    .pricing__block_header{
         width: 70%;
         text-align: center;
     }
 
-    .pricing__block_basic_price,
-    .pricing__block_professional_price,
-    .pricing__block_enterprise_price{
+    .pricing__block_price{
         width: 70%;
         text-align: center;
     }
 
-    .pricing__block_basic_text,
-    .pricing__block_professional_text,
-    .pricing__block_enterprise_text{
+    .pricing__block_text{
         width: 70%;
         text-align: center;
     }
 
-    .pricing__block_basic_list,
-    .pricing__block_professional_list,
-    .pricing__block_enterprise_list{
+    .pricing__block_list{
         width: 70%;
     }
 }
 
 @media screen and (max-width: 480px){
-    .pricing__block_basic_header,
-    .pricing__block_professional_header,
-    .pricing__block_enterprise_header{
+    .pricing__block_header{
         width: 100%;
         text-align: center;
     }
 
-    .pricing__block_basic_price,
-    .pricing__block_professional_price,
-    .pricing__block_enterprise_price{
+    .pricing__block_price{
         width: 100%;
         text-align: center;
     }
 
-    .pricing__block_basic_text,
-    .pricing__block_professional_text,
-    .pricing__block_enterprise_text{
+    .pricing__block_text{
         width: 100%;
         text-align: center;
     }
 
-    .pricing__block_basic_list,
-    .pricing__block_professional_list,
-    .pricing__block_enterprise_list{
+    .pricing__block_list{
         width: 100%;
     }
 }

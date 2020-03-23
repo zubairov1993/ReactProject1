@@ -1,0 +1,39 @@
+.testiomial{
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+}
+    
+.testiomial__text{
+    display: flex;
+    width: 273px;
+    height: 140px;
+    background-color:#f4f6f4;
+}
+    
+.testiomial__text span{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #86878b;
+    padding-left: 12px;
+    padding-top: 24px;
+    font-style: italic;
+}
+.testiomial__person{
+    display: flex;
+    padding-top: 27px;
+}
+    
+.testiomial__person_name{
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+}
+
+@media screen and (max-width: 1239px){
+    .testiomial{
+        align-items: center;
+    }
+}

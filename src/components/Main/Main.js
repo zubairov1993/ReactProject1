@@ -22,6 +22,5 @@ export default function Main() {
             <SectionEight />
             <SectionNine />
         </div>
-        
     )
 }

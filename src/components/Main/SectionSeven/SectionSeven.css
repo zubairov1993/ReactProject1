@@ -5,153 +5,43 @@
     padding-bottom: 100px;
 }
 
-.what{
+.testimonials__content{
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.testimonial{
+.testimonials__blocks{
     width: 100%;
     display: flex;
     justify-content: center;
     padding-top: 55px;
     flex-wrap: wrap;
 }
-
-.testiomial1{
-    display: flex;
-    flex-direction: column;
-    margin: 25px;
-}
     
-.blo{
-    display: flex;
-    width: 273px;
-    height: 140px;
-    background-color:#f4f6f4;
-}
-    
-.blo span{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
-    line-height: 1.2;
-    font-weight: 400;
-    color: #86878b;
-    padding-left: 12px;
-    padding-top: 24px;
-    font-style: italic;
-}
-.two{
-    display: flex;
-    padding-top: 27px;
-}
-    
-.namej{
-    display: flex;
-    flex-direction: column;
-    padding-left: 15px;
-}
-    
-.testimonial h6{
+.testimonials__blocks h6{
     font-family: 'Open Sans', sans-serif ;
     font-size: 20px;
     font-weight: 700;
     color: #333333;
     padding-top: 15px;
-    
 }
     
-.testimonial p{
+.testimonials__blocks p{
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     font-weight: 400;
     color: #86878b;
     padding-top: 8px;
 }
-    
-.testiomial2{
-    display: flex;
-    flex-direction: column;
-    margin: 25px;
-}
-    
-.blo2{
-    display: flex;
-    width: 273px;
-    height: 140px;
-    background-color:#f4f6f4;
-}
-    
-.blo2 span{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
-    line-height: 1.2;
-    font-weight: 400;
-    color: #86878b;
-    padding-left: 12px;
-    padding-top: 24px;
-    font-style: italic;
-}
-    
-.jonh{
-    display: flex;
-    flex-direction: column;
-    padding-left: 15px;
-}
-    
-.testiomial3{
-    display: flex;
-    flex-direction: column;
-    margin: 25px;
-}
-    
-.blo3{
-    display: flex;
-    width: 273px;
-    height: 140px;
-    background-color:#f4f6f4;
-}
-    
-.blo3 span{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
-    line-height: 1.2;
-    font-weight: 400;
-    color: #86878b;
-    padding-left: 12px;
-    padding-top: 24px;
-    font-style: italic;
-}
-    
-.susan{
-    display: flex;
-    flex-direction: column;
-    padding-left: 15px;
-}
-
-@media screen and (max-width: 1239px){
-    .testiomial1{
-        align-items: center;
-    }
-
-    .testiomial2{
-        align-items: center;
-    }
-
-    .testiomial3{
-        align-items: center;
-    }
-}
 
 @media screen and (max-width: 768px){
-
     .testimonials{
         padding-bottom: 50px;
     }
 
-    .testimonial{
+    .testimonials__blocks{
         padding-top: 30px;
     }
 }

@@ -4,13 +4,13 @@ import HeaderText from '../HeaderText/HeaderText';
 
 export default function SectionEight(){
     return(
-        <div class="custom">
+        <div className="custom">
             <HeaderText 
             title={'STYLISH AXURE DESIGN'}
             text={"Use the sections you need, remove the ones you don't.  Create gorgeous prototypes faster than ever!"}
             />
-            <input type="sibmit" value="Download" class="submit" />
-            <p class="custop">Insert your picture here</p>
+            <input type="sibmit" value="Download" className="custom__btn" />
+            <p className="custom__text">Insert your picture here</p>
         </div>
     )
 }
