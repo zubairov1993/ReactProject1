@@ -19,93 +19,6 @@
     padding-top: 80px;
 }
 
-.awesome__block-design{
-    width: 350px;
-    margin: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-    
-.awesome__block-design h5{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 20px;
-    line-height: 24px;
-    font-weight: 700;
-    color: #333333;
-    padding-top: 24px;
-}
-    
-.awesome__block-design p{
-    width: 95%;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
-    line-height: 20px;
-    font-weight: 400;
-    color: #86878b;
-    height: auto;
-    text-align: center;
-    padding-top: 20px;
-}
-
-.awesome__block-crafted{
-    width: 350px;
-    margin: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-    
-.awesome__block-crafted h5{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 20px;
-    line-height: 24px;
-    font-weight: 700;
-    color: #333333;
-    padding-top: 24px;
-}
-    
-.awesome__block-crafted p{
-    width: 95%;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
-    line-height: 20px;
-    font-weight: 400;
-    color: #86878b;
-    height: auto;
-    text-align: center;
-    padding-top: 20px;
-}
-
-.awesome__block-customize{
-    width: 350px;
-    margin: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.awesome__block-customize h5{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 20px;
-    line-height: 24px;
-    font-weight: 700;
-    color: #333333;
-    padding-top: 24px;
-}
-    
-.awesome__block-customize p{
-    width: 95%;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
-    line-height: 20px;
-    font-weight: 400;
-    color: #86878b;
-    height: auto;
-    text-align: center;
-    padding-top: 20px;
-}
-
 @media screen and (max-width: 768px){
     .awesome{
         padding-bottom: 50px;
@@ -113,22 +26,5 @@
 
     .awesome__blocks{
         padding-top: 50px;
-    }
-}
-
-@media screen and (max-width: 480px){
-    .awesome__block-design{
-        width: 90%;
-        margin: 25px;
-    }
-
-    .awesome__block-crafted{
-        width: 90%;
-        margin: 25px;
-    }
-
-    .awesome__block-customize{
-        width: 90%;
-        margin: 25px;
     }
 }

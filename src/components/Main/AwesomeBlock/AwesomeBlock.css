@@ -1,0 +1,35 @@
+.awesome__block{
+    width: 350px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+    
+.awesome__block h5{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #333333;
+    padding-top: 24px;
+}
+    
+.awesome__block p{
+    width: 95%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #86878b;
+    height: auto;
+    text-align: center;
+    padding-top: 20px;
+}
+
+@media screen and (max-width: 480px){
+    .awesome__block{
+        width: 90%;
+        margin: 25px;
+    }
+}
