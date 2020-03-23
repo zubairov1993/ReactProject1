@@ -4,24 +4,25 @@
     background-color: #000000;
 }
 
-.iconfot{
+.footer__icons{
     display: flex;
     flex-direction: column;
 }
 
-.icon2 a{
+.footer__icons .icon a{
     font-size: 24px;
     font-weight: 400;
     color: #cccccc;
     padding-right: 30px;
 }
 
-.icon2{
+.footer__icons .icon{
     text-align: center;
-    padding-top: 25px;
+    padding-bottom: 15px;
+    padding-top: 0;
 }
 
-.raz{
+.footer__text{
     opacity: 0.5;
     font-family: 'Raleway', sans-serif;
     font-size: 12px;
@@ -31,8 +32,23 @@
     text-align: center;
 }
 
+@media screen and (max-width: 640px){
+    .footer__icons{
+        align-items: center;
+    }
+
+    .footer__icons .icon{
+        padding-bottom: 0;
+        padding-top: 20px;
+    }
+
+    .footer__text{
+        padding-top: 0;
+    }
+}
+
 @media screen and (max-width: 480px){
-    .icon2{
+    .footer__icons .icon{
         text-align: center;
         padding-top: 25px;
         display: flex;
@@ -41,7 +57,7 @@
         margin: 0 auto;
     }
 
-    .icon2 a{
+    .footer__icons .icon a{
         padding-right: 0;
     }
 }

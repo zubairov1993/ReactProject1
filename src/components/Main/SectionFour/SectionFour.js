@@ -1,13 +1,14 @@
 import React from 'react';
 import './SectionFour.css';
+import BlockGray from '../BlockGray/BlockGray';
 
 export default function SectionFour(){
     return(
-        <div class="standard">
+        <div className="standard">
             <div className="wrapper">
-                <div class="standardp">
-                    <h5 class="standardh5">Standard Picture Section</h5>
-                    <p class="p4">
+                <div className="standar__content">
+                    <h5 className="standar__content-h5">Standard Picture Section</h5>
+                    <p className="standar__text">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean 
                         euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan 
                         et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis 
@@ -17,11 +18,7 @@ export default function SectionFour(){
                         bibendum laoreet.
                     </p>
                 </div>
-                <div className="insertBlock2">
-                    <div class="insert2">
-                        <div class="insert3">Insert your picture here</div>
-                    </div>
-                </div>
+                <BlockGray />
             </div>
         </div>
         

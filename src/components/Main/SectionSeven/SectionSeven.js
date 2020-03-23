@@ -1,14 +1,17 @@
 import React from 'react';
 import './SectionSeven.css';
 import gray from '../../../assets/images/Gray.png'
+import HeaderText from '../HeaderText/HeaderText';
 
 export default function SectionSeven(){
     return(
         <div class="testimonials">
             <div className="wrapper">
                 <div class="what">
-                    <h2>WHAT OUR CUSTOMERS ARE SAYING</h2>
-                    <p class="say">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <HeaderText 
+                    title={'WHAT OUR CUSTOMERS ARE SAYING'}
+                    text={'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'}
+                    />
                     <div class="testimonial">
                         <div class="testiomial1">
                             <div class="blo">

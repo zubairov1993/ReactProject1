@@ -1,0 +1,42 @@
+.icon a{
+    color: #cccccc;
+    padding-left: 30px;
+}
+    
+.icon{
+    height: 46px;
+    padding-top: 29px;
+    font-family: FontAwesome;
+    font-size: 48px;
+    font-weight: 400;
+    padding-left: 0;
+}
+
+@media screen and (max-width: 1024px){
+    .icon{
+        padding-top: 0;
+        padding-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 640px){
+    .icon{
+        width: 60%;
+        display: flex;
+        justify-content: space-around;
+        padding-top: 20px;
+        padding-bottom: 0;
+        font-size: 34px;
+    }
+
+    .icon a{
+        padding-left: 0;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .icon{
+        width: 80%;
+        font-size: 30px;
+    }
+}

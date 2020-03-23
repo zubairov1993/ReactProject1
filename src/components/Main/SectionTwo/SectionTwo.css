@@ -9,7 +9,7 @@ li{
     padding-bottom: 100px;
 }
     
-.formtab input{
+.features__form input{
     width: 112px;
     height: 112px;
     font-family: 'Open Sans', sans-serif;
@@ -19,7 +19,7 @@ li{
     color: #ffffff;
 }
     
-.formtab{
+.features__form{
     padding-left: 10%;
     padding-top: 147px;
     width: 20%;
@@ -38,21 +38,21 @@ li{
     border-radius: 0 0 6px 6px;
 }
     
-.efect{
+.features__efect{
     display: flex;
     width: 80%;
     padding-top: 155px;
 }
 
-.efect-text{
+.features__efect-text{
     width: 60%;
 }
 
-.efect-img{
+.features__efect-img{
     width: 40%;
 }
     
-.efect h5{
+.features__efect h5{
     font-family: 'Open Sans', sans-serif;
     font-size: 20px;
     font-weight: 700;
@@ -60,22 +60,22 @@ li{
     padding-bottom: 40px;
 }
     
-.efect p{
+.features__efect p{
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     line-height: 20px;
     font-weight: 400;
     color: #86878b;
-    height: 132px;
+    height: auto;
     width: 480px;
 }
     
-.imgcity{
+.features__efect-imgcity{
     width: 320px;
     height: 253px;
 }
     
-.download1{	
+.features__efect_btn{	
     width: 121px;
     height: 46px;
     background-color: #ff8b38;
@@ -87,7 +87,7 @@ li{
     color: #ffffff;
 }
     
-.download2{
+.features__efect_btns{
     padding-top: 51px;	
 }
 
@@ -96,7 +96,7 @@ li{
         flex-direction: column;
     }
 
-    .formtab{
+    .features__form{
         width: 100%;
         padding-top: 80px;
         display: flex;
@@ -104,17 +104,17 @@ li{
         padding-left: 0;
     }
 
-    .efect{
+    .features__efect{
         width: 100%;
         padding-top: 60px;
         margin: 0 auto;
     }
 
-    .efect-text{
+    .features__efect-text{
         padding-left: 5%;
     }
 
-    .efect-img{
+    .features__efect-img{
         padding-right: 5%;
     }
 
@@ -125,34 +125,30 @@ li{
     .tab3{
         border-radius: 0 6px 6px 0;
     }
-    
-    .buttonsInput{
-        display: flex;
-    }
 }
 
 @media screen and (max-width: 890px){
-    .efect{
+    .features__efect{
         flex-direction: column-reverse;
         align-items: center;
         text-align: center;
     }
 
-    .efect-text{
+    .features__efect-text{
         padding-left: 0;
         width: 90%;
     }
 
-    .efect-img{
+    .features__efect-img{
         padding-right: 0;
         width: 100%;
     }
 
-    .efect-text p{
+    .features__efect-text p{
         width: 100%;
     }
 
-    .efect h5{
+    .features__efect h5{
         padding-top: 25px;
         padding-bottom: 25px;
     }
@@ -165,14 +161,14 @@ li{
 }
 
 @media screen and (max-width: 640px){
-    .formtab input{
+    .features__form input{
         width: 100px;
         height: 100px;
     }
 }
 
 @media screen and (max-width: 480px){
-    .formtab input{
+    .features__form input{
         width: 90px;
         height: 90px;
     }

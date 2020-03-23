@@ -3,27 +3,30 @@ import './SectionSix.css';
 import basic from '../../../assets/images/_0_176.png';
 import professional from '../../../assets/images/_19_149.png';
 import enterprise from '../../../assets/images/_70_197.png';
+import HeaderText from '../HeaderText/HeaderText';
 
 export default function SectionSix(){
     return(
         <div class="pricing">
             <div className="wrapper">
-                <div class="options">
-                    <h2>PRICING OPTIONS</h2>
-                    <p class="opt">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    <div class="blocks">
-                        <div class="basic">
-                            <div class="card_header">
+                <div class="pricing__content">
+                    <HeaderText 
+                    title={'PRICING OPTIONS'}
+                    text={'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'}
+                    />
+                    <div class="pricing__blocks">
+                        <div class="pricing__block_basic">
+                            <div class="pricing__block_basic_header">
                                 <h5>Basic</h5>
                             </div>
-                            <div class="card_price">
+                            <div class="pricing__block_basic_price">
                                 <img src={basic} alt="" />
                             </div>
-                            <div class="card_sub_text">
+                            <div class="pricing__block_basic_text">
                                 <h6>Free for Life</h6>
                             </div>
-                            <div class="u273"></div>
-                            <ul className="basic__list">
+                            <div class="pricing__block_orange"></div>
+                            <ul className="pricing__block_basic_list">
                                 <li>1 GB OF SPACE</li>
                                 <li>10 GB OF BANDWIDTH</li>
                                 <li>3 WEBSITES</li>
@@ -33,19 +36,19 @@ export default function SectionSix(){
                             </ul>
                         </div>
 
-                        <div class="professional">
-                            <div class="card_headerprof">
+                        <div class="pricing__block_professional">
+                            <div class="pricing__block_professional_header">
                                 <h5>Professional</h5>
                             </div>
-                            <div class="card_priceprof">
+                            <div class="pricing__block_professional_price">
                                 <img src={professional} alt=""/>
                             </div>
-                            <div class="card_sub_textprof">
+                            <div class="pricing__block_professional_text">
                                 <h6>Monthly Payment</h6></div>
-                            <div class="u319">
+                            <div class="pricing__block_professional_orange">
                                 <h5>OUR MOST POPULAR</h5>
                             </div>
-                            <ul className="professional__list">
+                            <ul className="pricing__block_professional_list">
                                 <li>5 GB OF SPACE</li>
                                 <li>50 GB OF BANDWIDTH</li>
                                 <li>12 WEBSITES</li>
@@ -55,18 +58,18 @@ export default function SectionSix(){
                             </ul>
                         </div>
 
-                        <div class="enterprise">
-                            <div class="card_headerrise">
+                        <div class="pricing__block_enterprise">
+                            <div class="pricing__block_enterprise_header">
                                 <h5>Enterprice</h5>
                             </div>
-                            <div class="card_pricerise">
+                            <div class="pricing__block_enterprise_price">
                                 <img src={enterprise} alt=""/>
                             </div>
-                            <div class="card_sub_textrise">
+                            <div class="pricing__block_enterprise_text">
                                 <h6>Monthly Payment</h6>
                             </div>
-                            <div class="u273"></div>
-                            <ul className="enterprice__list">
+                            <div class="pricing__block_orange"></div>
+                            <ul className="pricing__block_enterprise_list">
                                 <li>UNLIMITED SPACE</li>
                                 <li>UNLIMITED BANDWIDTH</li>
                                 <li>100 WEBSITES</li>

@@ -6,12 +6,12 @@ export default function NavMenu(){
     return(
         <div className="navigation">
             <div className="wrapper">
-                <div class="navigation__bar">
-                    <div class="navigation__image">
+                <div className="navigation__bar">
+                    <div className="navigation__image">
                         <img src={logot} alt="logo" />                    
                     </div>
                     <nav>   
-                        <div class="navigation__links" id="myTopnav">
+                        <div className="navigation__links" id="myTopnav">
                             <a href="#">Features</a>
                             <a href="#">About</a>
                             <a href="#">Pricing</a>

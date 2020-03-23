@@ -5,17 +5,15 @@ import city from '../../../assets/images/image_right_u255_70.png'
 export default function SectionTwo(){
     return(
         
-        <div class="features">
+        <div className="features">
             <div className="wrapper">
-                <form class="formtab" action="">
-                    <ul className="buttonsInput">
-                        <li><input type="submit" value="TAB1" class="tab1" /></li>
-                        <li><input type="submit" value="TAB2"class="tab2" /></li>
-                        <li><input type="submit" value="TAB3" class="tab3" /></li>
-                    </ul>
-                </form>
-                <div class="efect">
-                    <div className="efect-text">
+                <ul className="features__form">
+                    <li><input type="submit" value="TAB1" className="tab1" /></li>
+                    <li><input type="submit" value="TAB2" className="tab2" /></li>
+                    <li><input type="submit" value="TAB3" className="tab3" /></li>
+                </ul>
+                <div className="features__efect">
+                    <div className="features__efect-text">
                         <h5>Tabs with soft transitioning effect.</h5>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
@@ -25,12 +23,12 @@ export default function SectionTwo(){
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
                             bibendum laoreet.
                         </p>
-                        <div class="download2">
-                            <input type="submit" value="Download" class="download1" />
+                        <div className="features__efect_btns">
+                            <input type="submit" value="Download" className="features__efect_btn" />
                         </div>
                     </div>
-                    <div className="efect-img">
-                        <img src={city} alt="" class="imgcity" />
+                    <div className="features__efect-img">
+                        <img src={city} alt="" className="features__efect-imgcity" />
                     </div>
                 </div>
             </div>

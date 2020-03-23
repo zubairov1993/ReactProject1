@@ -8,26 +8,6 @@
 .contact_us .wrapper{
     display: block;
 }
-    
-.contact_us h1{
-    text-align: center;
-    padding-top: 105px;
-    font-family: 'Raleway', sans-serif;
-    font-size: 36px;
-    line-height: 43px;
-    font-weight: 400;
-    color: #212121;
-}
-    
-.contact_us p{
-    text-align: center;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
-    line-height: 20px;
-    font-weight: 400;
-    color: #86878b;
-    padding-top: 30px;
-}
 
 .panel{
     display: flex;
@@ -114,12 +94,6 @@
 @media screen and (max-width: 640px){
     .contact_us{
         padding-bottom: 50px;
-    }
-
-    .contact_us p{
-        width: 90%;
-        text-align: center;
-        margin: 0 auto;
     }
 
     .panel_g{

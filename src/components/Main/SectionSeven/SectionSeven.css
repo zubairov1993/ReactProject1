@@ -11,19 +11,6 @@
     flex-direction: column;
     align-items: center;
 }
-    
-.say{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
-    line-height: 20px;
-    font-weight: 400;
-    color: #86878b;
-    padding-top: 27px;
-}
-    
-.what h2{
-    padding-top: 108px;
-}
 
 .testimonial{
     width: 100%;
@@ -162,17 +149,6 @@
 
     .testimonials{
         padding-bottom: 50px;
-    }
-
-    .what h2{
-        width: 90%;
-        text-align: center;
-        padding-top: 50px;
-    }
-
-    .say{
-        width: 90%;
-        text-align: center;
     }
 
     .testimonial{

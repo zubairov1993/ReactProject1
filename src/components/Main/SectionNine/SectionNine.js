@@ -1,12 +1,15 @@
 import React from 'react';
 import './SectionNine.css';
+import HeaderText from '../HeaderText/HeaderText';
 
 export default function SectionNine(){
     return(
         <div class="contact_us">
             <div className="wrapper">
-                <h1>CONTACT US</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <HeaderText 
+                title={'CONTACT US'}
+                text={'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'}
+                />
                 <div class="panel">
                     <div class="panel_g">
                         <div class="name1">
